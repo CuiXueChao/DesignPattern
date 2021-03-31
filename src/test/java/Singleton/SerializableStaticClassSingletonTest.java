@@ -1,6 +1,6 @@
 package Singleton;
 
-import SingletonPattern.SerializableStaticClassSingleton;
+import singletonPattern.SerializableStaticClassSingleton;
 import org.junit.Test;
 
 import java.io.*;

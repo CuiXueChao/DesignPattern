@@ -1,8 +1,8 @@
 package Singleton;
 
-import SingletonPattern.lazy.DoubleCheckLazySingleton;
-import SingletonPattern.lazy.LazySingleton;
-import SingletonPattern.lazy.SynLazySingleton;
+import singletonPattern.lazy.DoubleCheckLazySingleton;
+import singletonPattern.lazy.LazySingleton;
+import singletonPattern.lazy.SynLazySingleton;
 import org.junit.Test;
 
 /**

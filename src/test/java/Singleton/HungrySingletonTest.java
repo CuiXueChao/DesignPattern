@@ -1,6 +1,6 @@
 package Singleton;
 
-import SingletonPattern.HungrySingleton;
+import singletonPattern.HungrySingleton;
 import org.junit.Assert;
 import org.junit.Test;
 

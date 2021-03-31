@@ -1,8 +1,8 @@
 package Singleton;
 
-import SingletonPattern.*;
-import SingletonPattern.lazy.DoubleCheckLazySingleton;
-import SingletonPattern.lazy.LazySingleton;
+import singletonPattern.*;
+import singletonPattern.lazy.DoubleCheckLazySingleton;
+import singletonPattern.lazy.LazySingleton;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;

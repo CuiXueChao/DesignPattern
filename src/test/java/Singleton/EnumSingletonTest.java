@@ -1,6 +1,6 @@
 package Singleton;
 
-import SingletonPattern.EnumSingleton;
+import singletonPattern.EnumSingleton;
 import org.junit.Test;
 
 /**
