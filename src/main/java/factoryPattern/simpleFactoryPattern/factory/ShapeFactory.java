@@ -9,7 +9,7 @@ import factoryPattern.simpleFactoryPattern.product.Square;
  * 形状工厂:当增加新的产品时，需要对产品接口进行实现，并在工厂中增加相应的实例创建部分
  * 违反了开闭原则，不完全算一种设计模式
  * @ClassName:ShapeFactory
- * @DESCRIPTION: 形状工厂,将产品进行抽象并对具体产品具体实现，用一个工厂对象对具体产品进行接收
+ * @DESCRIPTION: 简单工厂的工厂类中包含了必要的逻辑判断，拥有根据条件动态实例化相关类的优点
  * @author: cxc
  * @DATE: 2021/3/25
  */
