@@ -13,8 +13,9 @@ import java.util.HashMap;
 public class LegoFactory {
     /**
      * 存放乐高的的容器，在此容器中判断是否需要创建乐高对象
+     * 需要查验map中的内容，再次声明为public
      */
-    private final static HashMap<String, Lego> stringLegoHashMap = new HashMap<String, Lego>();
+    public final static HashMap<String, Lego> stringLegoHashMap = new HashMap<String, Lego>();
     /** 
      * 获取乐高对象的方法，容器中不存在时，以请求的参数进行乐高对象的创建并返回。
      * @Param color
