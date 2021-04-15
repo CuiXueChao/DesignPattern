@@ -25,7 +25,7 @@ public class AdapterSecond {
  * @author: cxc
  * @DATE: 2021-04-15
  */
-class Adaptee {
+class Adapt {
     public int outPut220V() {
         return 220;
     }
@@ -42,7 +42,7 @@ interface Target {
     int outPut5V();
 }
 
-class Adapter extends Adaptee implements Target {
+class Adapter extends Adapt implements Target {
 
     @Override
     public int outPut5V() {

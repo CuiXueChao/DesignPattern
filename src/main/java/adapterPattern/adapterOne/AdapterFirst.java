@@ -13,7 +13,7 @@ package adapterPattern.adapterOne;
 public class AdapterFirst {
     public static void main(String[] args) {
         //现在只有220V的电压输出
-        Adaptee adaptee = new Adaptee();
+        Adapt adaptee = new Adapt();
         //现在有一个适配器（变压器）可以将220V的电压转换为5V电压供手机充电。
         Adapter adapter = new Adapter(adaptee);
         //转换电压
@@ -31,7 +31,7 @@ public class AdapterFirst {
  * @author: cxc
  * @DATE: 2021-04-14
  */
-class Adaptee {
+class Adapt {
     public int outPut220V() {
         return 220;
     }
@@ -71,9 +71,9 @@ class Adapter implements Target {
     /**
      * 定义被适配的对象
      */
-    Adaptee adaptee;
+    Adapt adaptee;
 
-    public Adapter(Adaptee adaptee) {
+    public Adapter(Adapt adaptee) {
         this.adaptee = adaptee;
     }
 
