@@ -1,7 +1,8 @@
-package flayweightPattern;
+package flyweightPattern;
 
 /**
  * 乐高积木
+ *
  * @ClassName:Brick
  * @DESCRIPTION: 享元模式的应用，以乐高积木为例子。
  * @author: cxc
@@ -28,8 +29,8 @@ public class Lego {
     public Lego(String color, int data) {
         this.color = color;
         this.data = data;
-        this.legoName=color+data;
-        System.out.println("创建出"+this.color+"色的，"+this.data+"个单位的积木——"+legoName);
+        this.legoName = color + data;
+        System.out.println("创建出" + this.color + "色的，" + this.data + "个单位的积木——" + legoName);
     }
 
     public String getColor() {
