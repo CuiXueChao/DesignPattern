@@ -26,7 +26,7 @@ public class AdapterFirst {
  * <br><br>
  * 220V插座
  *
- * @ClassName: AdapterFirst
+ * @ClassName: Adapt
  * @DESCRIPTION: 输出220V电压
  * @author: cxc
  * @DATE: 2021-04-14
@@ -40,7 +40,7 @@ class Adapt {
 /**
  * 转换接口，220V---》5V
  *
- * @ClassName: AdapterFirst
+ * @ClassName: Target
  * @DESCRIPTION:
  * @author: cxc
  * @DATE: 2021-04-14
@@ -61,7 +61,7 @@ interface Target {
  * <br><br>
  * 手机充电器
  *
- * @ClassName: AdapterFirst
+ * @ClassName: Adapter
  * @DESCRIPTION:
  * @author: cxc
  * @DATE: 2021-04-14

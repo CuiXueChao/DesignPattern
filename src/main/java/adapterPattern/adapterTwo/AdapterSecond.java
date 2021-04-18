@@ -1,12 +1,11 @@
 package adapterPattern.adapterTwo;
 
 /**
- * @ClassName:AdapterFirst
+ * @ClassName: AdapterSecond
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/15
+ * @DATE: 2021-04-18
  */
-
 public class AdapterSecond {
     public static void main(String[] args) {
         //不符合“最少知道原则”，通过继承暴漏了父类的方法，对所使用的方法造成了“污染”
@@ -20,7 +19,7 @@ public class AdapterSecond {
  * <br><br>
  * 220V插座
  *
- * @ClassName: AdapterSecond
+ * @ClassName: Adapt
  * @DESCRIPTION: 通过继承来获取被适配的方法
  * @author: cxc
  * @DATE: 2021-04-15
