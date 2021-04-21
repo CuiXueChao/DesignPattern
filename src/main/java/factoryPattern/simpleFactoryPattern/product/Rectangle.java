@@ -1,10 +1,10 @@
 package factoryPattern.simpleFactoryPattern.product;
 
 /**
- * @ClassName:Rectangle
+ * @ClassName: Rectangle
  * @DESCRIPTION: 长方形实现类
  * @author: cxc
- * @DATE: 2021/3/25
+ * @date: 2021/3/25
  */
 
 public class Rectangle implements Shape {

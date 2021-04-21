@@ -5,7 +5,7 @@ package decoratorPattern;
  * @ClassName: FilterDecorator
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/20
+ * @date: 2021/4/20
  */
 
 public class FilterDecorator implements Photograph {

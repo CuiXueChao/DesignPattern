@@ -4,7 +4,7 @@ package adapterPattern.adapterTwo;
  * @ClassName: AdapterSecond
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021-04-18
+ * @date: 2021-04-18
  */
 public class AdapterSecond {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class AdapterSecond {
  * @ClassName: Adapt
  * @DESCRIPTION: 通过继承来获取被适配的方法
  * @author: cxc
- * @DATE: 2021-04-15
+ * @date: 2021-04-15
  */
 class Adapt {
     public int outPut220V() {
@@ -36,7 +36,7 @@ interface Target {
      *
      * @return int
      * @author cxc
-     * @date 2021/4/14
+     * @date: 2021/4/14
      */
     int outPut5V();
 }

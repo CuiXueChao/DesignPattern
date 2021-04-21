@@ -2,10 +2,11 @@ package factoryPattern.abstractFactoryPattern.productB;
 
 /**
  * 蓝色颜料的实现
- * @ClassName:Blue
+ *
+ * @ClassName: Blue
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/3/25
+ * @date: 2021/3/25
  */
 
 public class Blue implements Color {

@@ -1,10 +1,10 @@
 package factoryPattern.simpleFactoryPattern.product;
 
 /**
- * @ClassName:Circle
+ * @ClassName: Circle
  * @DESCRIPTION: 圆形实现类
  * @author: cxc
- * @DATE: 2021/3/25
+ * @date: 2021/3/25
  */
 
 public class Circle implements Shape {

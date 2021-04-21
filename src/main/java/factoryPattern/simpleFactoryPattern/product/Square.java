@@ -1,13 +1,13 @@
 package factoryPattern.simpleFactoryPattern.product;
 
 /**
- * @ClassName:Square
+ * @ClassName: Square
  * @DESCRIPTION: 正方形实现类
  * @author: cxc
- * @DATE: 2021/3/25
+ * @date: 2021/3/25
  */
 
-public class Square implements Shape{
+public class Square implements Shape {
 
     @Override
     public void draw() {

@@ -4,7 +4,7 @@ package decoratorPattern;
  * @ClassName: DesignPattern
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/20
+ * @date: 2021/4/20
  */
 
 public class CloudDecorator implements Photograph {

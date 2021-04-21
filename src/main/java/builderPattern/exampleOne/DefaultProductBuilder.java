@@ -2,10 +2,11 @@ package builderPattern.exampleOne;
 
 /**
  * 想要使用构建者模式来构建的一种实现。需提供构建对象的方法以及赋值函数，一边构建对象时，顺序的控制
- * @ClassName:DefaultProductBuilder
+ *
+ * @ClassName: DefaultProductBuilder
  * @DESCRIPTION: 对于对象中某些不可变的变量可在此直接定义
  * @author: cxc
- * @DATE: 2021/3/31
+ * @date: 2021/3/31
  */
 
 public class DefaultProductBuilder implements ComputerBuilder {
@@ -27,22 +28,21 @@ public class DefaultProductBuilder implements ComputerBuilder {
 
     @Override
     public void buildMainBoard(String mainBoard) {
-        this.mainBoard=mainBoard;
+        this.mainBoard = mainBoard;
     }
 
     @Override
     public void buildMemory(String memory) {
-        this.memory=memory;
+        this.memory = memory;
     }
 
     @Override
     public void buildBox(String box) {
-        this.box=box;
+        this.box = box;
     }
 
     @Override
     public Computer build() {
-        Computer computer = new Computer(mainBoard, memory, box);
-        return computer;
+        return new Computer(mainBoard, memory, box);
     }
 }

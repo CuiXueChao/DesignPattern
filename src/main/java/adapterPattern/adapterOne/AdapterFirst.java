@@ -4,10 +4,10 @@ package adapterPattern.adapterOne;
  * 将一个类的接口转换成客户希望的另外一个接口。适配器模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。<br>
  * 采用手机充电器转换电压的例子，描述适配器模式
  *
- * @ClassName:AdapterFirst
+ * @ClassName: AdapterFirst
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/14
+ * @date: 2021/4/14
  */
 
 public class AdapterFirst {
@@ -29,7 +29,7 @@ public class AdapterFirst {
  * @ClassName: Adapt
  * @DESCRIPTION: 输出220V电压
  * @author: cxc
- * @DATE: 2021-04-14
+ * @date: 2021-04-14
  */
 class Adapt {
     public int outPut220V() {
@@ -43,7 +43,7 @@ class Adapt {
  * @ClassName: Target
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021-04-14
+ * @date: 2021-04-14
  */
 interface Target {
     /**
@@ -51,7 +51,7 @@ interface Target {
      *
      * @return int
      * @author cxc
-     * @date 2021/4/14
+     * @date: 2021/4/14
      */
     int outPut5V();
 }
@@ -64,14 +64,14 @@ interface Target {
  * @ClassName: Adapter
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021-04-14
+ * @date: 2021-04-14
  */
 class Adapter implements Target {
 
     /**
      * 定义被适配的对象
      */
-    Adapt adaptee;
+    private Adapt adaptee;
 
     public Adapter(Adapt adaptee) {
         this.adaptee = adaptee;

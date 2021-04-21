@@ -1,21 +1,21 @@
 package singletonPattern;
 
 /**
- * @ClassName:HungryMan
+ * @ClassName: HungryMan
  * @DESCRIPTION: 单例模式，饿汉式,基于jvm的类加载机制实现线程安全
  * @author: cxc
- * @DATE: 2021/3/15
+ * @date: 2021/3/15
  */
 
 public class HungrySingleton {
 
-    private static HungrySingleton instance=new HungrySingleton();
+    private static HungrySingleton instance = new HungrySingleton();
 
-    private HungrySingleton(){
+    private HungrySingleton() {
 
     }
 
-    public static HungrySingleton getInstance(){
+    public static HungrySingleton getInstance() {
         return instance;
     }
 }

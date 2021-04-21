@@ -5,10 +5,11 @@ import factoryPattern.factoryMethodPattern.product.Skirt;
 
 /**
  * 裙子工厂类
- * @ClassName:SkirtFactory
+ *
+ * @ClassName: SkirtFactory
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/3/25
+ * @date: 2021/3/25
  */
 
 public class SkirtFactory implements Factory {

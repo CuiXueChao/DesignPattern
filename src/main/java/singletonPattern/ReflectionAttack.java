@@ -1,10 +1,10 @@
 package singletonPattern;
 
 /**
- * @ClassName:Reflection
+ * @ClassName: Reflection
  * @DESCRIPTION: 利用反射的机制获取私有的构造方法创建一个实例，来打破单例的规则
  * @author: cxc
- * @DATE: 2021/3/17
+ * @date: 2021/3/17
  */
 
 public class ReflectionAttack {

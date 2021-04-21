@@ -2,19 +2,20 @@ package facadePattern.Material;
 
 /**
  * 珍珠类
- * @ClassName:Pearl
+ *
+ * @ClassName: Pearl
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/4
+ * @date: 2021/4/4
  */
 
 public class Pearl {
-    private static Pearl pearl=new Pearl();
+    private static Pearl pearl = new Pearl();
 
     private Pearl() {
     }
 
-    public static Pearl getPearl(){
+    public static Pearl getPearl() {
         return pearl;
     }
 

@@ -6,7 +6,7 @@ package decoratorPattern;
  * @ClassName: VivoPhone
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/20
+ * @date: 2021/4/20
  */
 
 public class VivoPhone implements Photograph {

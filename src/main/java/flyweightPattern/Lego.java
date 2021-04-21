@@ -3,10 +3,10 @@ package flyweightPattern;
 /**
  * 乐高积木
  *
- * @ClassName:Brick
+ * @ClassName: Brick
  * @DESCRIPTION: 享元模式的应用，以乐高积木为例子。
  * @author: cxc
- * @DATE: 2021/4/2
+ * @date: : 2021/4/2
  */
 
 public class Lego {

@@ -1,21 +1,22 @@
 package singletonPattern;
 
 /**
- * @ClassName:StaticClassSingleton
+ * @ClassName: StaticClassSingleton
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/3/15
+ * @date: 2021/3/15
  */
 
-public class StaticClassSingleton{
+public class StaticClassSingleton {
 
-    private StaticClassSingleton(){}
-
-    public static class SingletonHolder{
-        private static final StaticClassSingleton instance=new StaticClassSingleton();
+    private StaticClassSingleton() {
     }
 
-    public static StaticClassSingleton getInstance(){
+    public static class SingletonHolder {
+        private static final StaticClassSingleton instance = new StaticClassSingleton();
+    }
+
+    public static StaticClassSingleton getInstance() {
         return SingletonHolder.instance;
     }
 }

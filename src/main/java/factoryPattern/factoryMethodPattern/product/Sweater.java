@@ -2,10 +2,11 @@ package factoryPattern.factoryMethodPattern.product;
 
 /**
  * 毛衣产品类
- * @ClassName:Sweater
+ *
+ * @ClassName: Sweater
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/3/25
+ * @date: 2021/3/25
  */
 
 public class Sweater implements Product {

@@ -8,7 +8,7 @@ package decoratorPattern;
  * @ClassName: Function
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/20
+ * @date: 2021/4/20
  */
 
 public interface Photograph {
@@ -16,9 +16,9 @@ public interface Photograph {
     /**
      * 定义拍照功能接口，具体品牌的手机具体实现
      *
-     * @return: void
+     * @Return: void
      * @author cxc
-     * @date 2021/4/20
+     * @date: 2021/4/20
      */
     void photograph();
 }

@@ -3,10 +3,10 @@ package builderPattern.exampleOne;
 /**
  * 将要构建的产品类
  *
- * @ClassName:Computer
+ * @ClassName: Computer
  * @DESCRIPTION: 模仿电脑的组装
  * @author: cxc
- * @DATE: 2021/3/28
+ * @date: 2021/3/28
  */
 
 public class Computer {
@@ -27,7 +27,6 @@ public class Computer {
     private String memory;
 
     //...等等零部件，不一一列举
-
 
 
     public Computer() {

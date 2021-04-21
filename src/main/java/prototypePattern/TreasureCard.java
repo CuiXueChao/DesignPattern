@@ -4,10 +4,11 @@ import java.io.Serializable;
 
 /**
  * TreasurePlus类所引用的对象
- * @ClassName:TreasureCard
+ *
+ * @ClassName: TreasureCard
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/1
+ * @date: 2021/4/1
  */
 
 public class TreasureCard implements Cloneable, Serializable {
@@ -27,7 +28,7 @@ public class TreasureCard implements Cloneable, Serializable {
 
     @Override
     public String toString() {
-        return this.hashCode()+"-----TreasureCard{" +
+        return this.hashCode() + "-----TreasureCard{" +
                 "cardId=" + cardId +
                 '}';
     }

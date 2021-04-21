@@ -2,19 +2,20 @@ package facadePattern.Material;
 
 /**
  * 椰果类
- * @ClassName:Coconut
+ *
+ * @ClassName: Coconut
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/4/4
+ * @date: 2021/4/4
  */
 
 public class Coconut {
-    private static Coconut coconut=new Coconut();
+    private static Coconut coconut = new Coconut();
 
     private Coconut() {
     }
 
-    public static Coconut getCoconut(){
+    public static Coconut getCoconut() {
         return coconut;
     }
 
