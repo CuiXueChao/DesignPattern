@@ -1,15 +1,18 @@
-package Singleton;
+package singleton;
 
-import singletonPattern.SerializableStaticClassSingleton;
 import org.junit.Test;
+import singletonPattern.SerializableStaticClassSingleton;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 
 /**
- * @ClassName:SerializableStaticClassSingletonTest
+ * @ClassName: SerializableStaticClassSingletonTest
  * @DESCRIPTION:
  * @author: cxc
- * @DATE: 2021/3/17
+ * @date: 2021/3/17
  */
 
 public class SerializableStaticClassSingletonTest {
@@ -17,14 +20,12 @@ public class SerializableStaticClassSingletonTest {
     SerializableStaticClassSingleton instance = SerializableStaticClassSingleton.getInstance();
 
     /**
-    *
-    * @Description: 写入操作
-    * @returns:void
-    * @author: cxc
-    * @date: 2021/3/17
-    */
+     * @Description: 写入操作
+     * @author: cxc
+     * @date: 2021/3/17
+     */
     @Test
-    public void outPutTest()throws Exception{
+    public void outPutTest() throws Exception {
         //获取流并写入文件“serializableTest”中,执行一次即可
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("serializableTest"));
         oos.writeObject(instance);
@@ -32,14 +33,11 @@ public class SerializableStaticClassSingletonTest {
     }
 
 
-
-    /** 
-    * 
-    * @Description: 通过序列化所持久化的单例和通过类直接取到的实例并非同一个实例
-    * @returns:void
-    * @author: cxc
-    * @date: 2021/3/17
-    */
+    /**
+     * @Description: 通过序列化所持久化的单例和通过类直接取到的实例并非同一个实例
+     * @author: cxc
+     * @date: 2021/3/17
+     */
     @Test
     public void serializableTest1() throws Exception {
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("serializableTest"));
@@ -50,13 +48,11 @@ public class SerializableStaticClassSingletonTest {
         //Assert.assertSame(o,instance);
     }
 
-    /** 
-    * 
-    * @Description: 序列化的单例实现
-    * @returns:void
-    * @author: cxc
-    * @date: 2021/3/17
-    */
+    /**
+     * @Description: 序列化的单例实现
+     * @author: cxc
+     * @date: 2021/3/17
+     */
     @Test
     public void serializableTest2() throws Exception {
         /*Classes that need to designate a replacement when an instance of it
@@ -89,6 +85,6 @@ public class SerializableStaticClassSingletonTest {
         SerializableStaticClassSingleton o = ((SerializableStaticClassSingleton) ois.readObject());
 
         System.out.println(o == instance);
-       
+
     }
 }
