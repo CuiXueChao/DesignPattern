@@ -12,7 +12,9 @@ public class HungrySingleton {
     private static HungrySingleton instance = new HungrySingleton();
 
     private HungrySingleton() {
-
+        if (HungrySingleton.instance != null) {
+            throw new RuntimeException("单例不允许创建多个实例");
+        }
     }
 
     public static HungrySingleton getInstance() {

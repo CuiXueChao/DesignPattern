@@ -2,7 +2,9 @@ package singleton;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
 import singletonPattern.HungrySingleton;
+import singletonPattern.StaticClassSingleton;
 
 /**
  * @ClassName: HungrySingletonTest
@@ -25,5 +27,13 @@ public class HungrySingletonTest {
         System.out.println(instance1 == instance2);
         Assert.assertEquals(instance1, instance1);
 
+    }
+    
+    @Test
+    @DisplayName("静态内部类测试")
+    public void staticInterClassTest() {
+        StaticClassSingleton instance1 = StaticClassSingleton.getInstance();
+        StaticClassSingleton instance2 = StaticClassSingleton.getInstance();
+        System.out.println(instance1 == instance2);
     }
 }

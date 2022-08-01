@@ -1,9 +1,7 @@
 package singleton;
 
 import org.junit.Test;
-import singletonPattern.EnumSingleton;
-import singletonPattern.HungrySingleton;
-import singletonPattern.StaticClassSingleton;
+import singletonPattern.*;
 import singletonPattern.lazy.DoubleCheckLazySingleton;
 import singletonPattern.lazy.LazySingleton;
 
